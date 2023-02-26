@@ -30,6 +30,7 @@ print("Modelo entrenado")
 plt.xlabel("# de Epocas")
 plt.ylabel("Magnitud de perdida")
 plt.plot(historial.history["loss"])
+plt.show()
 # Prediccion 
 print("Prediciendo")
 resultado = modelo.predict([100.0])
